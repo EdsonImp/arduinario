@@ -1,0 +1,33 @@
+.menu-area{
+      
+    background-color: rgb(95, 104, 230);
+   }
+.menu{
+    
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    margin-left: 5px;
+ }
+.icones {
+    color: aliceblue;
+   
+}
+.icones:hover{
+    color: aquamarine;
+    font-weight: 300;
+   
+}
+
+@media screen and (max-width: 1000px){
+    
+    .menu{
+        font-size: 19px;
+    }
+}
+@media screen and (max-width: 900px){
+    
+        .menu{
+            font-size: 16px;
+    }
+}

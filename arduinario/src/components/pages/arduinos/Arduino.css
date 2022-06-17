@@ -1,0 +1,32 @@
+
+
+.modelos{
+    display: flex;
+    flex-direction: row;
+    
+}
+/*Menus*/
+.menu-btn{
+    margin-top: 5px;
+    
+}
+.menu-btn button{
+    border: none;
+    background-color: rgb(95, 104, 230);
+    margin-right: 3px;
+}
+
+/*REsponsividade*/
+
+@media screen and (max-width: 1200px){
+    
+    .images{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 1150px){
+    
+        .modelos{
+        flex-direction: column;
+    }
+}
