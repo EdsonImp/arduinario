@@ -1,5 +1,5 @@
 .menu-area{
-      
+      min-width: 90px;
     background-color: rgb(95, 104, 230);
    }
 .menu{
@@ -8,6 +8,7 @@
     flex-direction: column;
     font-size: 22px;
     margin-left: 5px;
+    margin-top: 15px;
  }
 .icones {
     color: aliceblue;

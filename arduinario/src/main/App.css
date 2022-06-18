@@ -6,22 +6,20 @@
     margin: 0px;
     padding: 0px;
     display: grid;
-    grid-template-columns: 1.5fr 9fr 2fr; /* tres colunas*/
-    grid-template-rows: 126px 1fr 30px; /* 3 linhas*/
+    grid-template-columns: 1.5fr 10.5fr; /* tres colunas*/
+    grid-template-rows: 104px 1fr 30px; /* 3 linhas*/
     grid-template-areas: 
-    "logo header anuncios"
-    "menus conteudo anuncios"
-    "menus footer anuncios";
+    "header header"
+    "menus conteudo"
+    "menus footer";
     height: 100vh;
    
 }
 
-aside.logo{
-    grid-area: logo;
+header.header{
+    grid-area: header;
 }
-div.anuncios{
-    grid-area: anuncios
-}
+
 aside.menu-area{
     grid-area: menus;
 }

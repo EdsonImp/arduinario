@@ -1,9 +1,26 @@
-.barra-img{
-    width: 400px;
-    border-bottom: 1px solid gray;
-}
+
 .header{
-    border-bottom: 1px solid gray;
-    background-color: rgb(95, 104, 230);
-}
+    background-image: url("../../assets/img/arduinosBarra.png");
+    font-size: 70px;
+    color: rgb(10, 19, 153);
+    font-weight: bold;
+    text-align: center;
+    text-justify: auto;
+      position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: sticky;
+    top: 0;
+   
     
+    }
+    .header p{
+        background-color: aquamarine;
+        opacity: 0.6;
+        font-family: Comic Sans MS;
+    }
+    
+
+
+@media screen and (max-width: 900px){
+    
+  
+}
