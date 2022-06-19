@@ -1,5 +1,5 @@
 import React from "react"
-import "./Instalacao.css"
+import "./ArduinoPinagens.css"
 import unor3 from "../../../assets/img/pinagem/pinagemUno.png"
 import mega from "../../../assets/img/pinagem/pinagemMega.jpg"
 import nano from "../../../assets/img/pinagem/pinagemNano.jpg"
@@ -9,7 +9,7 @@ import mini from "../../../assets/img/pinagem/pinagemMini.png"
 
 export default propos => {
     return (
-<div className="container-fluid">
+<div className="pinagem container-fluid">
     <label>Pinagem arduíno uno-R3</label>
 <img src={unor3}  width="100%" height="100%" />
 <label>Pinagem arduíno mega</label>
