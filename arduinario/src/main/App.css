@@ -30,7 +30,7 @@ footer.footer{
     grid-area: footer;
 }
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 850px){
     
     .app{
         grid-template-columns: 1fr; /*1 coluna*/

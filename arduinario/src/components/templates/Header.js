@@ -6,6 +6,6 @@ export default props =>
 //<img className='logo-img' src={logo} alt="logo" />
 
 <header className=" header d-sm-flex flex-column">
-    <p>ARDUINÁRIO</p>
+    <div>ARDUINÁRIO</div>
     
 </header>

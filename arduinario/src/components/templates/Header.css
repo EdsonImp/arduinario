@@ -5,7 +5,6 @@
 
 .header{
     background-image: url("../../assets/img/arduinosBarra.png");
-    font-size: 70px;
     color: rgb(10, 19, 153);
     font-weight: bold;
     text-align: center;
@@ -16,18 +15,27 @@
    
     
     }
-    .header p{
-        background-color: aquamarine;
+    .header{
+        
+        justify-content: center;
+        align-items: center;
+    } 
+    .header div{
+      background-color: aquamarine;
         opacity: 0.6;
         font-family: Comic Sans MS3, Geneva, Verdana, sans-serif;
+        font-size: 70px;
+        width: 100%;
+
     }
-    
+   
 
 
-@media screen and (max-width: 800px){
-  .header{
-        font-size:60px;
-    justify-content: center;
-      }
-      
+@media screen and (max-width: 850px){
+  .header div{
+      font-size: 50px;
+      width: 100%;
+
+  }
 }
+

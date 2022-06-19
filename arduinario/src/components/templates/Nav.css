@@ -21,7 +21,7 @@
 }
 
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 800px){
     
         .menu{
             flex-direction: row;

@@ -3,7 +3,6 @@ import './Arduino.css'
 import Pinagens from "./ArduinosPinagens"
 import Main from "../../templates/Main"
 import Instalacao from "./Instalacao"
-//import arduinos from "../../../assets/img/arduinosBarra.png"
 import uno from "../../../assets/img/modelos/Arduino-Uno.png"
 import leonardo from "../../../assets/img/modelos/Arduino-Leonardo.png"
 import lilypad from "../../../assets/img/modelos/Arduino-Lilypad.png"
