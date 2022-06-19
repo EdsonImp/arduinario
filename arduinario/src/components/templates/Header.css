@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Comic Sans MS3';
+  src: url('../../assets/fonts/ComicSansMS3.ttf') format('truetype');
+}
 
 .header{
     background-image: url("../../assets/img/arduinosBarra.png");
@@ -15,14 +19,15 @@
     .header p{
         background-color: aquamarine;
         opacity: 0.6;
-        font-family: Comic Sans MS, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: Comic Sans MS3, Geneva, Verdana, sans-serif;
     }
     
 
 
 @media screen and (max-width: 800px){
-  .header p{
-    font-size:50px;
-  
-}
+  .header{
+        font-size:60px;
+    justify-content: center;
+      }
+      
 }

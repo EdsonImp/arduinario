@@ -30,3 +30,16 @@ footer.footer{
     grid-area: footer;
 }
 
+@media screen and (max-width: 950px){
+    
+    .app{
+        grid-template-columns: 1fr; /*1 coluna*/
+        grid-template-rows: 75px 75px 1fr 30px; /* 4 linhas*/
+        grid-template-areas: 
+        "header"
+        "menus"
+        "conteudo"
+        "footer";
+        height: 100vh;
+}
+}

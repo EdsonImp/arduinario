@@ -8,7 +8,7 @@ import mini from "../../../assets/img/pinagem/pinagemMini.png"
 
 export default propos => {
     return (
-<div>
+<div className="container-fluid">
     <label>Pinagem arduíno uno-R3</label>
 <img src={unor3}  width="100%" height="100%" />
 <label>Pinagem arduíno mega</label>
