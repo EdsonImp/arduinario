@@ -1,4 +1,5 @@
 import React from "react"
+import "./Instalacao.css"
 import unor3 from "../../../assets/img/pinagem/pinagemUno.png"
 import mega from "../../../assets/img/pinagem/pinagemMega.jpg"
 import nano from "../../../assets/img/pinagem/pinagemNano.jpg"
