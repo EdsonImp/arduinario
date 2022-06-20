@@ -3,6 +3,7 @@ import './Arduino.css'
 import Pinagens from "./ArduinosPinagens"
 import Main from "../../templates/Main"
 import Instalacao from "./Instalacao"
+import Videos from "./Videos";
 import uno from "../../../assets/img/modelos/Arduino-Uno.png"
 import leonardo from "../../../assets/img/modelos/Arduino-Leonardo.png"
 import lilypad from "../../../assets/img/modelos/Arduino-Lilypad.png"
@@ -18,6 +19,14 @@ export default propos => {
 const [models, setModels] = useState(true)
 const [pinagens, setPinagens] = useState(false)
 const [instalacao, setInstalacao] = useState(false)
+const [video, setVideo] = useState(false)
+
+function renderVideos(){
+    if(video){ 
+    return(
+        <Videos/>
+    )
+}    }
 
 function renderInstalacao(){
     if(instalacao){ 
@@ -113,25 +122,33 @@ return (
     <button onClick={()=> {setModels(true)
     setPinagens(false)
     setInstalacao(false)
+    setVideo(false)
     }}>Modelos</button>
 
     <button onClick={()=> {setModels(false)
     setPinagens(true)
     setInstalacao(false)
+    setVideo(false)
     }}>Pinagens </button>
 
     <button onClick={()=> {setModels(false)
     setPinagens(false)
     setInstalacao(true)
+    setVideo(false)
     }}>Instalação</button>
 
-    <button>Vídeos</button>
+    <button onClick={()=> {setModels(false)
+    setPinagens(false)
+    setInstalacao(false)
+    setVideo(true)
+    }}>Vídeos</button>
     
     
     </div>    
         {renderModelos()}
         {renderPinagens()}    
         {renderInstalacao()} 
+        {renderVideos()}
         
                    
     </Main>
