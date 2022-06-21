@@ -3,6 +3,8 @@ import React from 'react'
 
 export default props => 
 <footer className="footer">
-   <p >E S Silva</p>
+
+<a href="https://www.youtube.com/channel/UCqkPxk-vCVl4FvdCRarIESQ" target="_blank"><i class="fa fa-youtube"></i></a>
+
    
 </footer>

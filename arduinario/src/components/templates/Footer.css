@@ -1,4 +1,8 @@
 .footer{ 
-text-align: right;
+text-align: center;
 padding-right: 5px;
+height: 35px;
+background-color: rgb(13, 13, 85);
+color: aliceblue;
+font-size: 25px;
 }
