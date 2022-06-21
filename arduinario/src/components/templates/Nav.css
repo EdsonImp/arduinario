@@ -42,3 +42,18 @@
     }
    
 }
+@media screen and (max-width: 667px){
+    
+    .menu{display: grid;
+        font-size: 16px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+        margin-left: 10px;
+    
+}
+Link{
+    display: flex;
+    flex-direction: row;
+}
+}

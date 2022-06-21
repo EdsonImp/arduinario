@@ -6,12 +6,12 @@ import { Link } from 'react-router-dom'
 
 export default props =>
 <aside className="menu-area">
-    <nav className="menu">
+    <nav className="menu container-fluid">
     <Link to="/">
         <i className='fa fa-home icones'><label>Início</label></i>
     </Link>
     <Link to="/modelos">
-        <i class="fa fa-microchip icones"><label>Arduínos</label> </i>
+        <i class="fa fa-microchip icones"><label>Arduíno</label> </i>
     </Link>
 
     <Link to="/shields">
