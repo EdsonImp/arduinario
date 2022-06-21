@@ -52,6 +52,20 @@ O teclado do Shield Display 16×02 LCD Keypad com Teclado é composto por 6 bot�
 Tem circuito com  4 leds, 4 botões, um Buzzer, um potenciômetro, 4 headers para controle PWM, 
 e mais outros dois conjuntos de soquetes – um para sensores de temperatura e outro para APC220.
 Indispensável par aum bom começo e testes nos estudos com arduíno e robótica.</p>
+<p>Link para baixar biblioteca zip </p>
+<a href="https://blog.eletrogate.com/wp-content/uploads/2018/06/MultiFuncShield-Library-1_2.zip" target="_blank">Baixe aqui</a>
+      <p>clique em Sketch, Incluir Biblioteca  e depois adicionar biblioteca.ZIP.
+
+Depois da instalação, recarregue a Arduino IDE, senão a biblioteca não ficará ativa.
+
+Uma outra Biblioteca que será também necessária é a TimerOne. Mas essa poderá instalar de outro modo. Clique em :
+
+Sketch,Incluir Biblioteca , Gerenciar Bibliotecas 
+
+Após abrir a janela do Gerenciador de Biblioteca, refine a busca digitando TimerOne. Na biblioteca  TimerOne, 
+Clique em More Info e depois em Instalar. Após alguns segundos, ela será automaticamente instalada. Lembre-se que o 
+seu computador precisa estar conectado na internet, para poder baixar a biblioteca. Após a instalação da Biblioteca,
+ é necessário que feche e abra novamente o programa  Arduino IDE.</p>
         </div></>
 
 )}
