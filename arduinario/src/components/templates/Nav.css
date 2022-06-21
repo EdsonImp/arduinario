@@ -9,11 +9,18 @@
     font-size: 22px;
     margin-left: 5px;
     margin-top: 15px;
+    
  }
-.icones {
-    color: aliceblue;
-   
-}
+ .icones{
+    color: yellow;
+    
+ }
+ label{
+    color: white;
+    margin-left: 4px;
+ }
+
+
 .icones:hover{
     color: aquamarine;
     font-weight: 300;

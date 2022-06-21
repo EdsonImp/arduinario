@@ -119,25 +119,25 @@ return (
     <Main >
     <div className="container-fluid menu-btn">
 
-    <button onClick={()=> {setModels(true)
+    <button className="btn" onClick={()=> {setModels(true)
     setPinagens(false)
     setInstalacao(false)
     setVideo(false)
     }}>Modelos</button>
 
-    <button onClick={()=> {setModels(false)
+    <button className="btn" onClick={()=> {setModels(false)
     setPinagens(true)
     setInstalacao(false)
     setVideo(false)
     }}>Pinagens </button>
 
-    <button onClick={()=> {setModels(false)
+    <button className="btn" onClick={()=> {setModels(false)
     setPinagens(false)
     setInstalacao(true)
     setVideo(false)
     }}>Instalação</button>
 
-    <button onClick={()=> {setModels(false)
+    <button className="btn" onClick={()=> {setModels(false)
     setPinagens(false)
     setInstalacao(false)
     setVideo(true)
