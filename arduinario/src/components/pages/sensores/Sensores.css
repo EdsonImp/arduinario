@@ -1,0 +1,6 @@
+.menu-sensor{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
